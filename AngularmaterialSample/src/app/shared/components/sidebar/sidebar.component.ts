@@ -9,7 +9,24 @@ export class SidebarComponent implements OnInit {
 
   constructor() { }
 
+ links:any 
+  
   ngOnInit(): void {
+    
+   this.links = ["Portal","Admin","Blog"];
   }
+
+
+  save() {
+    alert("save clicked");
+  }
+
+  undo() {
+    alert("undo clicked");
+  }
+
+
+
+ 
 
 }

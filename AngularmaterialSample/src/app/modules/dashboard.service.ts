@@ -32,36 +32,37 @@ export class DashboardService {
 
   pieChart() {
     return [{
-      name: 'Brands',
+      name: 'Corona Affected Persons',
+      title: 'Corona Affected Persons',
       colorByPoint: true,
       data: [{
-          name: 'Chrome',
+          name: 'India',
           y: 61.41,
           sliced: true,
           selected: true
       }, {
-          name: 'Internet Explorer',
+          name: 'USA',
           y: 11.84
       }, {
-          name: 'Firefox',
+          name: 'Europe',
           y: 10.85
       }, {
-          name: 'Edge',
+          name: 'London',
           y: 4.67
       }, {
-          name: 'Safari',
+          name: 'China',
           y: 4.18
       }, {
-          name: 'Sogou Explorer',
+          name: 'Singapore',
           y: 1.64
       }, {
-          name: 'Opera',
+          name: 'Malaysia',
           y: 1.6
       }, {
-          name: 'QQ',
+          name: 'Vietnam',
           y: 1.2
       }, {
-          name: 'Other',
+          name: 'Indonesia',
           y: 2.61
       }]
   }];

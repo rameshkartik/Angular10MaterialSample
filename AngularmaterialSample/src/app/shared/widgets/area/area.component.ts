@@ -25,14 +25,14 @@ export class AreaComponent implements OnInit {
           type: 'area'
       },
       title: {
-          text: 'Random Data'
+          text: 'Corona Data'
       },
       subtitle: {
           text: 'Demo'
       },
       tooltip: {
           split: true,
-          valueSuffix: ' millions'
+          valueSuffix: ' Millions'
       },
       exporting: {
         enabled : true
